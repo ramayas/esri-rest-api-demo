@@ -20,6 +20,8 @@
     "typescript": "~5.1.6"
   },
   "dependencies": {
+    "@aws-solutions-constructs/aws-cloudfront-s3": "^2.44.0",
+    "@aws-solutions-constructs/aws-s3-lambda": "^2.44.0",
     "aws-cdk-lib": "2.90.0",
     "constructs": "^10.0.0",
     "source-map-support": "^0.5.21"
