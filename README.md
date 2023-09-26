@@ -2,10 +2,11 @@
 ## Folder Structure and Rationale
 The folder is structured such that the parent project is a CDK project while the LAMBDA folders contain code to run LAMBDA. There are 3 LAMBDA folders. LAMBDA and LAMBDA2 only showcases the dependency used to run the API. LAMBDA3 showcases the full demo to retrieve coordinates and run the point geometry.
 
-LAMBDA - small demo using the esri-rest-request dependency.
-LAMBDA2- small demos using node-fetch
-LAMBDA3 - full demo using axios with the Jest test framework:
-    In LAMBDA3 - index.ts is a quick and dirty implementation to return values. index_refactor.ts would be the start of a commercial grade implementation with test cases for each API call.
+1. LAMBDA - small demo using the esri-rest-request dependency.
+2. LAMBDA2- small demos using node-fetch
+3. LAMBDA3 - full demo using axios with the Jest test framework:
+    a. In LAMBDA3 - index.ts is a quick and dirty implementation to return values. 
+    b. index_refactor.ts would be the start of a commercial grade implementation with test cases for each API call.
 
 ## Instructions
 Here are the instructions to run the program:
