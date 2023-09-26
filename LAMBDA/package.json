@@ -15,6 +15,9 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "@esri/arcgis-rest-request": "^4.2.0",
+    "cross-fetch": "^4.0.0",
+    "isomorphic-form-data": "^2.0.0",
     "node-fetch": "^3.3.2"
   }
 }
